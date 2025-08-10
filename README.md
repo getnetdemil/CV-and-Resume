@@ -32,7 +32,7 @@
 
 ## What is Awesome CV?
 
-**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.sharelatex.com/templates/cv-or-resume/fancy-cv). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
+**Awesome CV** is LaTeX template for a **CV(Curriculum Vitae)**, **Résumé** or **Cover Letter** inspired by [Fancy CV](https://www.overleaf.com/read/yyncdtmkbxcq#67ee41). It is easy to customize your own template, especially since it is really written by a clean, semantic markup.
 
 
 ## Donate
@@ -51,7 +51,7 @@ Please help keep this project alive! Donations are welcome and will go towards f
 
 #### Résumé
 
-You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
+You can see [PDF](https://www.overleaf.com/read/yyncdtmkbxcq#67ee41)
 
 | Page. 1 | Page. 2 |
 |:---:|:---:|
