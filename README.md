@@ -1,4 +1,4 @@
-<!-- <h1 align="center">
+ <h1 align="center">
   <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
     <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />
   </a>
@@ -10,7 +10,7 @@
   LaTeX template for your outstanding job application
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://www.paypal.me/posquit0">
     <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
   </a>
@@ -114,4 +114,4 @@ Good luck!
 
 ## See Also
 
-* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself. -->
+* [Awesome Identity](https://github.com/posquit0/hugo-awesome-identity) - A single-page Hugo theme to introduce yourself. --> -->
