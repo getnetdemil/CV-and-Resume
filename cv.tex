@@ -16,11 +16,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-<<<<<<< HEAD
 \documentclass[11pt, a4paper]{awesome-cv}
-=======
-\documentclass[15pt, a4paper]{awesome-cv}
->>>>>>> origin/overleaf-2026-02-17-0904
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -69,6 +65,13 @@
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
+
+%---------------------------------------------------------
+\cvsection{Profile}
+%---------------------------------------------------------
+\begin{cvparagraph}
+A dedicated researcher specializing in advanced image processing and computer vision techniques applied to hydrology modeling. With extensive experience in deep learning methodologies, I tackle complex problems in hydrology and environmental sciences using Python, PyTorch, and cutting-edge AI frameworks. My research focuses on leveraging satellite imagery and remote sensing data to enhance water resource management and climate change adaptation strategies.
+\end{cvparagraph}
 
 %---------------------------------------------------------
 \cvsection{Degrees}
@@ -121,65 +124,7 @@
 \end{cventries}
 
 %---------------------------------------------------------
-<<<<<<< HEAD
 \cvsection{Other education and expertise}
-=======
-\cvsection{Research Experience}
-%---------------------------------------------------------
-\begin{cventries}
-  \cventry
-    {Doctoral Researcher} % Job title
-    {University of Oulu} % Organization
-    {Oulu, Finland} % Location
-    {09.2024 - Present} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developing AI-driven methods for satellite image processing to determine snow water characteristics}
-        \item {Enhancing hydrological modeling accuracy using deep learning techniques}
-        \item {Applying PyTorch and TensorFlow for environmental parameter estimation}
-        \item {Integrating multi-modal sensing data (Sentinel-1, Sentinel-2, DEMs, reanalysis data)}
-      \end{cvitems}
-    }
-
-  \cventry
-    {Computer Vision Research Intern} % Job title
-    {University of Oulu} % Organization
-    {Oulu, Finland} % Location
-    {02.2024 - 07.2024} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Established comprehensive data processing pipelines for hydrological parameter estimation}
-        \item {Achieved breakthrough accuracy in snow classification using modified DeepLabV3+ architecture}
-        \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
-      \end{cvitems}
-    }
-\end{cventries}
-
-%---------------------------------------------------------
-% \cvsection{Other Work Experience}
-% %---------------------------------------------------------
-% \begin{cventries}
-%   \cventry
-%     {Junior Electrical Engineer} % Job title
-%     {Ethiopian Electric utility} % Organization
-%     {Ethiopia} % Location
-%     {3.5 Years} % Date(s)
-%     {
-%   Full-time job
-%     }
-
-%   \cventry
-%     {Chief Technology Support} % Job title
-%     {American Space Ethiopia} % Organization
-%     {Ethiopia} % Location
-%     {1.5 Years} % Date(s)
-%     {
-%       American Embassy in Ethiopia
-%     }
-% \end{cventries}
-
-\cvsection{Skills}
->>>>>>> origin/overleaf-2026-02-17-0904
 %---------------------------------------------------------
 \begin{cvskills}
   \cvskill
@@ -247,6 +192,23 @@
         \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
       \end{cvitems}
     }
+  \cventry
+    {Junior Electrical Engineer} % Job title
+    {Ethiopian Electric utility} % Organization
+    {Ethiopia} % Location
+    {3.5 Years} % Date(s)
+    {
+      Full-time job
+    }
+
+  \cventry
+    {Chief Technology Support} % Job title
+    {American Space Ethiopia} % Organization
+    {Ethiopia} % Location
+    {1.5 Years} % Date(s)
+    {
+      American Embassy in Ethiopia
+    }
 \end{cventries}
 
 %---------------------------------------------------------
@@ -294,12 +256,8 @@ TODO
        \item {DOI: arXiv:2506.18926}
       \end{cvitems}
     }
-\end{cventries}
-
 %---------------------------------------------------------
-\cvsection{Conference Presentations}
-%---------------------------------------------------------
-\begin{cventries}
+% Conference Presentations are now integrated into Research Output
   \cventry
     {SIGIR 2024 Workshop on Information Retrieval for Climate Impact} % Conference
     {Leveraging Social Media for Real-time Monitoring of Local Climate Impact} % Title
@@ -325,6 +283,51 @@ TODO
 
 %---------------------------------------------------------
 \cvsection{Research supervision and leadership experience}
+%---------------------------------------------------------
+\begin{cvparagraph}
+TODO
+\end{cvparagraph}
+
+%---------------------------------------------------------
+\cvsection{Teaching merits}
+%---------------------------------------------------------
+\begin{cvparagraph}
+TODO
+\end{cvparagraph}
+
+%---------------------------------------------------------
+\cvsection{Awards and honours}
+%---------------------------------------------------------
+\begin{cvhonors}
+  \cvhonor
+    {Best 50 African Project of the Year} % Award
+    {Africa Innovation Week} % Event
+    {Continental} % Location
+    {2019} % Date(s)
+
+  \cvhonor
+    {Best Bahir Dar University Project of the Year} % Award
+    {Bahir Dar University} % Event
+    {Ethiopia} % Location
+    {2018} % Date(s)
+\end{cvhonors}
+
+%---------------------------------------------------------
+\cvsection{Other key academic merits}
+%---------------------------------------------------------
+\begin{cvparagraph}
+TODO
+\end{cvparagraph}
+
+%---------------------------------------------------------
+\cvsection{Scientific and societal impact}
+%---------------------------------------------------------
+\begin{cvparagraph}
+TODO
+\end{cvparagraph}
+
+%---------------------------------------------------------
+\cvsection{Selected Projects}
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
@@ -407,41 +410,14 @@ TODO
     }
 \end{cventries}
 
-%---------------------------------------------------------
-\cvsection{Teaching merits}
-%---------------------------------------------------------
-\begin{cvparagraph}
-TODO
-\end{cvparagraph}
-
-%---------------------------------------------------------
-\cvsection{Awards and honours}
-%---------------------------------------------------------
-\begin{cvhonors}
-  \cvhonor
-    {Best 50 African Project of the Year} % Award
-    {Africa Innovation Week} % Event
-    {Continental} % Location
-    {2019} % Date(s)
-
-  \cvhonor
-    {Best Bahir Dar University Project of the Year} % Award
-    {Bahir Dar University} % Event
-    {Ethiopia} % Location
-    {2018} % Date(s)
-\end{cvhonors}
-
 %-------------------------------------------------------------------------------
 \cvsection{Reference}
 %---------------------------------------------------------
-\begin{cvhonors}
-  \cvhonor
-    {Prof. Mourad Oussalah} % Award
-    {mourad.oussalah@oulu.fi} % Event
-    {University of Oulu} % Location
-    {1.} % Date(s)
-
-\end{cvhonors}
+\begin{cvparagraph}
+  Prof. Mourad Oussalah \\
+  mourad.oussalah@oulu.fi \\
+  University of Oulu
+\end{cvparagraph}
 %---------------------------------------------------------
 
 \end{document}
