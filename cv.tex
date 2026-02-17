@@ -16,7 +16,11 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
+<<<<<<< HEAD
 \documentclass[11pt, a4paper]{awesome-cv}
+=======
+\documentclass[15pt, a4paper]{awesome-cv}
+>>>>>>> origin/overleaf-2026-02-17-0904
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -42,7 +46,7 @@
 \name{Getnet Demil}{Jenberia}
 \position{AI \& Computer Vision Researcher{\enskip\cdotp\enskip}PhD Candidate}
 \address{University of Oulu, Finland}
-\mobile{+358.....}
+\mobile{+358417142887}
 \email{getnet.demil@oulu.fi}
 \homepage{getnetdemil.github.io}
 \github{getnetdemil}
@@ -85,7 +89,7 @@
 
   \cventry
     {Triple Master's Degree in Image Processing and Computer Vision} % Degree
-    {European Consortium} % Institution
+    {Erasmus Mundus Joint Master's Degree } % Institution
     {France, Spain, Hungary} % Location
     {2022 - 2024} % Date(s)
     {
@@ -117,7 +121,65 @@
 \end{cventries}
 
 %---------------------------------------------------------
+<<<<<<< HEAD
 \cvsection{Other education and expertise}
+=======
+\cvsection{Research Experience}
+%---------------------------------------------------------
+\begin{cventries}
+  \cventry
+    {Doctoral Researcher} % Job title
+    {University of Oulu} % Organization
+    {Oulu, Finland} % Location
+    {09.2024 - Present} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Developing AI-driven methods for satellite image processing to determine snow water characteristics}
+        \item {Enhancing hydrological modeling accuracy using deep learning techniques}
+        \item {Applying PyTorch and TensorFlow for environmental parameter estimation}
+        \item {Integrating multi-modal sensing data (Sentinel-1, Sentinel-2, DEMs, reanalysis data)}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Computer Vision Research Intern} % Job title
+    {University of Oulu} % Organization
+    {Oulu, Finland} % Location
+    {02.2024 - 07.2024} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Established comprehensive data processing pipelines for hydrological parameter estimation}
+        \item {Achieved breakthrough accuracy in snow classification using modified DeepLabV3+ architecture}
+        \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
+      \end{cvitems}
+    }
+\end{cventries}
+
+%---------------------------------------------------------
+% \cvsection{Other Work Experience}
+% %---------------------------------------------------------
+% \begin{cventries}
+%   \cventry
+%     {Junior Electrical Engineer} % Job title
+%     {Ethiopian Electric utility} % Organization
+%     {Ethiopia} % Location
+%     {3.5 Years} % Date(s)
+%     {
+%   Full-time job
+%     }
+
+%   \cventry
+%     {Chief Technology Support} % Job title
+%     {American Space Ethiopia} % Organization
+%     {Ethiopia} % Location
+%     {1.5 Years} % Date(s)
+%     {
+%       American Embassy in Ethiopia
+%     }
+% \end{cventries}
+
+\cvsection{Skills}
+>>>>>>> origin/overleaf-2026-02-17-0904
 %---------------------------------------------------------
 \begin{cvskills}
   \cvskill
@@ -200,13 +262,13 @@ TODO
 \begin{cventries}
   \cventry
     {Journal of Hydrology} % Journal
-    {Advances in image-based estimation of snow variable: A systematic literature review} % Title
+    {Advances in image-based estimation of snow variable: A systematic literature review on recent studies} % Title
     {} % Location
-    {May 2024} % Date
+    {June 2024} % Date
     {
       \begin{cvitems}
-        \item {Comprehensive review emphasizing deep learning architectures for snow hydrology modeling}
-        \item {DOI: 10.5194/egusphere-2024-1158}
+        \item {Comprehensive review emphasising image-based deep learning architectures for snow hydrology modelling}
+        \item {DOI: 10.1016/j.jhydrol.2025.132855}
       \end{cvitems}
     }
 
@@ -214,11 +276,22 @@ TODO
     {Earth Science Informatics} % Journal
     {Seeing through the clouds: enhanced snow and cloud segmentation in Sentinel-2 imagery with mDeepLabV3+} % Title
     {} % Location
-    {2025 (In Press)} % Date
+    {July 2025 } % Date
     {
       \begin{cvitems}
         \item {Novel deep learning model for accurate snow-cloud segmentation in satellite imagery}
         \item {DOI: 10.1007/s12145-025-01950-6}
+      \end{cvitems}
+    }
+
+   \cventry
+    {Book Chapter: arXiv preprint arXiv:2506.18926} % Journal
+    {AI-based Approach in Early Warning Systems: Focus on Emergency Communication Ecosystem and Citizen Participation in Nordic Countries} % Title
+    {} % Location
+    {2025} % Date
+    {
+      \begin{cvitems}
+       \item {DOI: arXiv:2506.18926}
       \end{cvitems}
     }
 \end{cventries}
@@ -253,9 +326,86 @@ TODO
 %---------------------------------------------------------
 \cvsection{Research supervision and leadership experience}
 %---------------------------------------------------------
-\begin{cvparagraph}
-TODO
-\end{cvparagraph}
+\begin{cventries}
+  \cventry
+    {AI-Enhanced Snow and Cloud Segmentation in Sentinel-2 Imagery} % Project
+    {University of Oulu | Nordic Workshop on AI for Climate Change} % Organization
+    {} % Location
+    {2025} % Date
+    {
+      \begin{cvitems}
+        \item {Modified DeepLabv3+ with ResNet backbone for semantic segmentation of Sentinel-2 satellite imagery}
+        \item {Integrated multi-source data fusion: Sentinel-1, DEMs, and reanalysis data for enhanced snow classification}
+        \item {Achieved state-of-the-art accuracy in snow-cloud discrimination, outperforming existing methods}
+        \item {Open-source high-resolution snow estimation pipeline supporting climate resilience and runoff prediction}
+      \end{cvitems}
+    }
+  \cventry
+    {Deep Learning Based Snow Hydrology Parameter Estimation} % Project
+    {University of Oulu | Published in Journal of Hydrology} % Organization
+    {} % Location
+    {2024 - 2025} % Date
+    {
+      \begin{cvitems}
+        \item {Comprehensive systematic literature review on image-based snow parameter estimation (DOI: 10.1016/j.jhydrol.2025.132855)}
+        \item {Developed deep learning model for snow-cloud segmentation using satellite imagery (DOI: 10.1007/s12145-025-01950-6)}
+        \item {End-to-end pipeline: data acquisition, model selection, training methodologies, and performance evaluation}
+        \item {Advanced uncertainty quantification techniques for improved hydrological modeling accuracy}
+      \end{cvitems}
+    }
+  \cventry
+    {Climate Change Impact Monitoring Using Social Media Analytics} % Project
+    {Research Publication | arXiv} % Organization
+    {} % Location
+    {2024} % Date
+    {
+      \begin{cvitems}
+        \item {Real-time local climate change impact assessment through social media data analysis}
+        \item {Natural language processing and sentiment analysis for community-level environmental insights}
+        \item {Published methodology for leveraging citizen-reported climate experiences (arXiv:2504.01162)}
+        \item {Bridge between traditional climate monitoring and grassroots environmental observations}
+      \end{cvitems}
+    }
+  \cventry
+    {Vision Aided Recognition of Objects for Assistive Robotics} % Project
+    {European Consortium Project} % Organization
+    {} % Location
+    {2022 - 2023} % Date
+    {
+      \begin{cvitems}
+        \item {6D pose estimation using DenseFusion model for individuals with upper-limb disabilities}
+        \item {Created proprietary dataset using Unity engine and HTC VIVE headsets with precise calibration}
+        \item {RGB-D sensor fusion with binary mask integration for robust object manipulation}
+        \item {Complete pipeline including 3D modeling, intrinsic/extrinsic parameter estimation, and real-time processing}
+      \end{cvitems}
+    }
+  \cventry
+    {Advanced Semantic Segmentation for Precision Agriculture} % Project
+    {Academic Research} % Organization
+    {} % Location
+    {2023} % Date
+    {
+      \begin{cvitems}
+        \item {Comparative analysis of U-Net, Attention U-Net, and DeepLabV3+ for agricultural applications}
+        \item {Automated multi-class segmentation: crop fields, background, and weed classification}
+        \item {UAV-based image processing pipeline optimized for precision agriculture workflows}
+        \item {Performance benchmarking across different deep learning architectures}
+      \end{cvitems}
+    }
+  \cventry
+    {Smart Microscope for Automated Medical Diagnosis} % Project
+    {Bahir Dar University} % Organization
+    {} % Location
+    {2018} % Date
+    {
+      \begin{cvitems}
+        \item {Automatic protozoan disease detection and diagnosis using computer vision and machine learning}
+        \item {End-to-end system design: hardware integration, image acquisition, and diagnostic algorithms}
+        \item {\textbf{Won Best African Project Award 2019} for innovation in medical technology}
+        \item {Python-based implementation with real-time processing capabilities}
+      \end{cvitems}
+    }
+\end{cventries}
 
 %---------------------------------------------------------
 \cvsection{Teaching merits}
@@ -281,18 +431,17 @@ TODO
     {2018} % Date(s)
 \end{cvhonors}
 
+%-------------------------------------------------------------------------------
+\cvsection{Reference}
 %---------------------------------------------------------
-\cvsection{Other key academic merits}
-%---------------------------------------------------------
-\begin{cvparagraph}
-TODO
-\end{cvparagraph}
+\begin{cvhonors}
+  \cvhonor
+    {Prof. Mourad Oussalah} % Award
+    {mourad.oussalah@oulu.fi} % Event
+    {University of Oulu} % Location
+    {1.} % Date(s)
 
+\end{cvhonors}
 %---------------------------------------------------------
-\cvsection{Scientific and societal impact}
-%---------------------------------------------------------
-\begin{cvparagraph}
-TODO
-\end{cvparagraph}
 
 \end{document}
