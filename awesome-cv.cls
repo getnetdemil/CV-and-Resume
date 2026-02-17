@@ -60,30 +60,10 @@
 \RequirePackage{xcolor}
 % Needed to use \ifxetex-\else-\fi statement
 \RequirePackage{ifxetex}
-% Needed to use \if-\then-\else statement (ifthen + compatibility for xifthen)
-\RequirePackage{ifthen}
+% Needed to use \if-\then-\else statement
+\RequirePackage{xifthen}
+% Needed to use a toolbox of programming tools
 \RequirePackage{etoolbox}
-% Compatibility: \isempty and \isundefined (xifthen equivalents) for systems without xifthen
-\makeatletter
-\newboolean{xt@empty}
-\providecommand{\isempty}[1]{%
-  \def\xt@temp{#1}%
-  \expandafter\ifx\expandafter\@empty\xt@temp\@empty
-    \setboolean{xt@empty}{true}%
-  \else
-    \setboolean{xt@empty}{false}%
-  \fi
-  \boolean{xt@empty}%
-}
-\newboolean{xt@undefined}
-\providecommand{\isundefined}[1]{%
-  \edef\xt@undefname{\string#1}%
-  \expandafter\@ifundefined\expandafter{\xt@undefname}
-    {\setboolean{xt@undefined}{true}}%
-    {\setboolean{xt@undefined}{false}}%
-  \boolean{xt@undefined}%
-}
-\makeatother
 % Needed to change line spacing in specific environment
 \RequirePackage{setspace}
 % Needed to manage fonts
