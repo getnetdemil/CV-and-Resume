@@ -1,23 +1,4 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Getnet D. Jenberia <getnet.demil@oulu.fi>
-% Based on Awesome-CV template
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-% Structure follows TENK 2020 Researcher's Curriculum Vitae Template
-% (Finnish National Board on Research Integrity, sections 1–15)
-%
-%-------------------------------------------------------------------------------
-% CONFIGURATIONS
-%-------------------------------------------------------------------------------
+
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
@@ -40,7 +21,7 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 % Tighten vertical spacing between sections
-\renewcommand{\acvSectionTopSkip}{1.5mm}
+\renewcommand{\acvSectionTopSkip}{-0.5mm}
 \renewcommand{\acvSectionContentTopSkip}{1.5mm}
 
 %-------------------------------------------------------------------------------
@@ -54,8 +35,8 @@
 \email{getnet.demil@oulu.fi}
 \homepage{getnetdemil.github.io}
 \github{getnetdemil}
+% \orcidlink{0009-0006-5158-0895}
 \linkedin{getnetdemil}
-\orcidlink{0009-0006-5158-0895}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -66,10 +47,10 @@
 \makecvheader
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
-\makecvfooter
-  {\today}
-  {Getnet D. Jenberia~~~·~~~Curriculum Vitae}
-  {\thepage}
+% \makecvfooter
+%   {\today}
+%   {Getnet D. Jenberia~~~·~~~Curriculum Vitae}
+%   {\thepage}
 
 %-------------------------------------------------------------------------------
 %	CV CONTENT — TENK 2020 Sections 2–15
@@ -176,7 +157,7 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
     }
 \end{cventries}
 
-\newpage
+% \newpage
 %---------------------------------------------------------
 % TENK Section 6
 \cvsection{Previous work experience}
@@ -191,7 +172,7 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
       \begin{cvitems}
         \item {Established comprehensive data processing pipelines for hydrological parameter estimation}
         \item {Achieved breakthrough accuracy in snow classification using modified DeepLabV3+ architecture}
-        \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
+        % \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
       \end{cvitems}
     }
 
@@ -199,10 +180,10 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
     {Junior Electrical Engineer} % Job title
     {Ethiopian Electric Utility} % Organization
     {Ethiopia} % Location
-    {2018 -- 2020} % Date(s) — TODO: verify exact start and end dates
+    {2019 -- 20222} % Date(s) — TODO: verify exact start and end dates
     {
       \begin{cvitems}
-        \item {Full-time position in electrical power systems engineering}
+        \item {Full-time position in junior electrical engineering}
       \end{cvitems}
     }
 
@@ -210,7 +191,7 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
     {Chief Technology Support} % Job title
     {American Space Ethiopia (U.S. Embassy)} % Organization
     {Ethiopia} % Location
-    {2016 -- 2018} % Date(s) — TODO: verify exact start and end dates
+    {2020 -- 2022} % Date(s) — TODO: verify exact start and end dates
     {
       \begin{cvitems}
         \item {Technology support at the American Space cultural center, U.S. Embassy in Ethiopia}
@@ -219,7 +200,7 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
 \end{cventries}
 
 % TENK Section 7: Career breaks — not applicable
-
+% \newpage
 %---------------------------------------------------------
 % TENK Section 8
 \cvsection{Research funding and grants}
@@ -243,7 +224,7 @@ Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \ensp
     {2022 -- 2024} % Date(s)
     {
       \begin{cvitems}
-        \item {Full scholarship covering tuition, travel, and living expenses for the EMJMD in Image Processing and Computer Vision across three European universities}
+        \item {Full scholarship  for the EMJMD in Image Processing and Computer Vision across three European universities}
       \end{cvitems}
     }
 \end{cventries}
@@ -277,7 +258,7 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
     {
       \begin{cvitems}
         \item {Novel deep learning model for accurate snow-cloud segmentation in satellite imagery}
-        \item {DOI: 10.1007/s12145-025-01950-6}
+        \item {\href{DOI: 10.1007/s12145-025-01950-6}{DOI: 10.1007/s12145-025-01950-6}}
       \end{cvitems}
     }
 
@@ -315,7 +296,7 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
     }
 \end{cventries}
 
-\newpage
+% \newpage
 %---------------------------------------------------------
 % TENK Section 12
 \cvsection{Awards and honours}
@@ -357,16 +338,16 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
       \end{cvitems}
     }
 
-  \cventry
-    {Societal application of AI research} % Category
-    {Climate Impact Monitoring through Social Media Analytics} % Title
-    {} % Location
-    {2024} % Date
-    {
-      \begin{cvitems}
-        \item {Developed methodology bridging traditional climate monitoring and grassroots environmental observations}
-      \end{cvitems}
-    }
+  % \cventry
+  %   {Societal application of AI research} % Category
+  %   {Climate Impact Monitoring through Social Media Analytics} % Title
+  %   {} % Location
+  %   {2024} % Date
+  %   {
+  %     \begin{cvitems}
+  %       \item {Developed methodology bridging traditional climate monitoring and grassroots environmental observations}
+  %     \end{cvitems}
+  %   }
 
   \cventry
     {Medical technology innovation} % Category
@@ -382,7 +363,7 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
 
 %---------------------------------------------------------
 % TENK Section 15
-\cvsection{Other merits}
+% \cvsection{Other merits}
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
@@ -393,8 +374,8 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
     {
       \begin{cvitems}
         \item {6D pose estimation using DenseFusion model for individuals with upper-limb disabilities}
-        \item {Created proprietary dataset using Unity engine and HTC VIVE headsets with precise calibration}
-        \item {RGB-D sensor fusion with binary mask integration for robust object manipulation}
+        % \item {Created proprietary dataset using Unity engine and HTC VIVE headsets with precise calibration}
+        % \item {RGB-D sensor fusion with binary mask integration for robust object manipulation}
       \end{cvitems}
     }
 
@@ -405,7 +386,7 @@ Total publications: 5 (2 journal articles, 1 book chapter, 2 conference papers).
     {2023} % Date
     {
       \begin{cvitems}
-        \item {Comparative analysis of U-Net, Attention U-Net, and DeepLabV3+ for agricultural applications}
+        % \item {Comparative analysis of U-Net, Attention U-Net, and DeepLabV3+ for agricultural applications}
         \item {UAV-based image processing pipeline optimized for precision agriculture workflows}
       \end{cvitems}
     }
