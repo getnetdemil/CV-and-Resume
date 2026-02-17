@@ -39,6 +39,10 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% Tighten vertical spacing between sections
+\renewcommand{\acvSectionTopSkip}{1.5mm}
+\renewcommand{\acvSectionContentTopSkip}{1.5mm}
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -149,19 +153,9 @@
 % TENK Section 4
 \cvsection{Language skills}
 %---------------------------------------------------------
-\begin{cvskills}
-  \cvskill
-    {Amharic} % Language
-    {Native} % Level
-
-  \cvskill
-    {English} % Language
-    {Fluent (working language)} % Level
-
-  \cvskill
-    {Spanish} % Language
-    {Elementary (A1)} % Level
-\end{cvskills}
+\begin{cvparagraph}
+Amharic (Native) \enspace\cdotp\enspace English (Fluent, working language) \enspace\cdotp\enspace Spanish (Elementary, A1)
+\end{cvparagraph}
 
 %---------------------------------------------------------
 % TENK Section 5
