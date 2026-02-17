@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.8)  17 FEB 2026 12:36
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.8)  17 FEB 2026 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1055,56 +1055,55 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 76.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 89.
+(Font)              scaled to size 10.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 89.
+(Font)              scaled to size 10.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 89.
+(Font)              scaled to size 9.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 89.
+t line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 89.
+(Font)              scaled to size 9.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 89.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 89.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 89.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 89.
+t line 88.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 89.
+(Font)              scaled to size 8.0pt on input line 88.
 
-Overfull \hbox (37.5879pt too wide) in alignment at lines 127--147
+Overfull \hbox (37.5879pt too wide) in alignment at lines 126--146
 [] [] 
  []
 
 
-Overfull \hbox (1.13791pt too wide) in alignment at lines 153--165
+Overfull \hbox (1.13791pt too wide) in alignment at lines 152--164
 [] [] 
  []
-
-
-Overfull \vbox (213.79799pt too high) has occurred while \output is active []
 
 
 
 [1
 
 ]
+
+[2]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 350.
+(Font)              scaled to size 9.0pt on input line 334.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 350.
+(Font)              scaled to size 9.0pt on input line 334.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 350.
+(Font)              scaled to size 12.0pt on input line 334.
 
 
-[2] (./cv.aux)
+[3] (./cv.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -1115,10 +1114,10 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  32788 strings out of 474240
  672384 string characters out of 5741464
- 1972557 words of memory out of 5000000
+ 1948557 words of memory out of 5000000
  54946 multiletter control sequences out of 15000+600000
  560713 words of font info for 106 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 116i,12n,122p,540b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,122p,540b,658s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.pdf (2 pages).
+Output written on cv.pdf (3 pages).
