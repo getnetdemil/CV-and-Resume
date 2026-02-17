@@ -1,14 +1,24 @@
-
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Getnet D. Jenberia <getnet.demil@oulu.fi>
+% Based on Awesome-CV template
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
-% Load the hyperref package to enable clickable links
-\usepackage{hyperref}
 \usepackage{orcidlink}
-
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -16,6 +26,8 @@
 \fontdir[fonts/]
 
 % Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-skyblue}
 
 % Set false if you don't want to highlight section with awesome color
@@ -26,18 +38,18 @@
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 \name{Getnet Demil}{Jenberia}
 \position{AI \& Computer Vision Researcher{\enskip\cdotp\enskip}PhD Candidate}
 \address{University of Oulu, Finland}
-\mobile{+358.....}
+\mobile{+358417142887}
 \email{getnet.demil@oulu.fi}
 \homepage{getnetdemil.github.io}
 \github{getnetdemil}
 \linkedin{getnetdemil}
-\googlescholar{Xz_tNToAAAAJ}{Google Scholar}
 \orcidlink{0009-0006-5158-0895}
-\quote{``Advancing hydrology modelling through artificial intelligence and remote sensing technology."}
+\quote{``Advancing hydrology modeling through artificial intelligence and remote sensing technology."}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -56,10 +68,10 @@
 %-------------------------------------------------------------------------------
 
 %---------------------------------------------------------
-\cvsection{Summary}
+\cvsection{Profile}
 %---------------------------------------------------------
 \begin{cvparagraph}
-A dedicated and results-oriented researcher specializing in the application of advanced machine learning and computer vision to hydrology and environmental sciences. Proven expertise in developing innovative AI-driven solutions for complex challenges in remote sensing, satellite image analysis, and climate change modelling. Highly proficient in Python, PyTorch, and TensorFlow with a strong track record of producing high-impact research and open-source tools.
+A dedicated researcher specializing in advanced image processing and computer vision techniques applied to hydrology modeling. With extensive experience in deep learning methodologies, I tackle complex problems in hydrology and environmental sciences using Python, PyTorch, and cutting-edge AI frameworks. My research focuses on leveraging satellite imagery and remote sensing data to enhance water resource management and climate change adaptation strategies.
 \end{cvparagraph}
 
 %---------------------------------------------------------
@@ -67,32 +79,39 @@ A dedicated and results-oriented researcher specializing in the application of a
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
-    {PhD in Artificial Intelligence and Remote Sensing Technology for Hydrology Modelling} % Degree
+    {PhD in Artificial Intelligence and Remote Sensing Technology} % Degree
     {University of Oulu} % Institution
     {Oulu, Finland} % Location
     {2024 - Present} % Date(s)
     {
-      \begin{cvitems}
-        \item {Focus: Hydrology modelling using AI and Remote Sensing.}
-        \item {Research: Deep learning for snow water characteristics estimation from satellite imagery.}
+      \begin{cvitems} % Description(s) bullet points
+        \item {Focus: Hydrology Modeling using AI and Remote Sensing}
+        \item {Research: Deep learning for snow water characteristics estimation from satellite imagery}
+        \item {Applications: Water resource management and climate change strategies}
       \end{cvitems}
     }
+
   \cventry
     {Triple Master's Degree in Image Processing and Computer Vision} % Degree
-    {Erasmus Mundus Joint Master's Degree} % Institution
+    {Erasmus Mundus Joint Master's Degree } % Institution
     {France, Spain, Hungary} % Location
     {2022 - 2024} % Date(s)
     {
-      \begin{cvitems}
-        \item {Specialized in advanced computer vision algorithms and deep learning architectures.}
+      \begin{cvitems} % Description(s) bullet points
+        \item {University of Bordeaux, France}
+        \item {Autonomous University of Madrid, Spain}
+        \item {Pazmany Peter Catholic University, Hungary}
+        \item {Specialized in advanced computer vision algorithms and deep learning architectures}
       \end{cvitems}
     }
+
   \cventry
     {MSc in Communication System Engineering} % Degree
     {Bahir Dar University} % Institution
     {Bahir Dar, Ethiopia} % Location
     {2020 - 2022} % Date(s)
     {}
+
   \cventry
     {B.Sc. in Electrical Engineering} % Degree
     {Bahir Dar University} % Institution
@@ -100,7 +119,7 @@ A dedicated and results-oriented researcher specializing in the application of a
     {2013 - 2018} % Date(s)
     {
       \begin{cvitems}
-        \item {Major: Electronics and Communication Systems.}
+        \item {Major: Electronics and Communication Systems}
       \end{cvitems}
     }
 \end{cventries}
@@ -110,149 +129,155 @@ A dedicated and results-oriented researcher specializing in the application of a
 %---------------------------------------------------------
 \begin{cvskills}
   \cvskill
-    {Programming \& Tools}
-    {Python, C++, MATLAB, JavaScript, Git, Docker}
+    {Programming} % Category
+    {Python, C++, MATLAB, JavaScript} % Skills
+
   \cvskill
-    {Deep Learning}
-    {PyTorch, TensorFlow, Keras, OpenCV}
+    {Deep Learning} % Category
+    {PyTorch, TensorFlow, Keras, OpenCV} % Skills
+
   \cvskill
-    {Computer Vision}
-    {Image Processing, Object Detection, Semantic Segmentation, 6D Pose Estimation}
+    {Computer Vision} % Category
+    {Image Processing, Object Detection, Semantic Segmentation, 6D Pose Estimation} % Skills
+
   \cvskill
-    {Remote Sensing \& GIS}
-    {Google Earth Engine, Satellite Image Analysis, Multi-spectral Processing}
+    {Remote Sensing} % Category
+    {GIS, Google Earth Engine, Satellite Image Analysis, Multi-spectral Processing} % Skills
+
+  \cvskill
+    {Systems} % Category
+    {Linux (Ubuntu, Debian), Windows, Git, Docker} % Skills
 \end{cvskills}
 
 %---------------------------------------------------------
 \cvsection{Language skills}
 %---------------------------------------------------------
-\begin{cvparagraph}
-Native language: Amharic. Other languages: English (fluent, self-assessed); Spanish (A1, self-assessed).
-\end{cvparagraph}
+\begin{cvskills}
+  \cvskill
+    {Languages} % Category
+    {English (Fluent), Amharic (Native), Spanish (Intermediate)} % Skills
+\end{cvskills}
 
 %---------------------------------------------------------
 \cvsection{Current employment}
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
-    {Doctoral Researcher in AI and Remote Sensing Technology for Hydrology Modelling} % Job title
+    {Doctoral Researcher} % Job title
     {University of Oulu} % Organization
     {Oulu, Finland} % Location
     {2024 - Present} % Date(s)
     {
-      \begin{cvitems}
-        \item {Developing novel AI-driven methods for processing satellite imagery to estimate snow water characteristics.}
-        \item {Enhancing hydrological model accuracy through the application of advanced deep learning techniques.}
-        \item {Integrating multi-modal sensing data (e.g., Sentinel-1, Sentinel-2, DEMs) for comprehensive environmental analysis.}
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Developing AI-driven methods for satellite image processing to determine snow water characteristics}
+        \item {Enhancing hydrological modeling accuracy using deep learning techniques}
+        \item {Applying PyTorch and TensorFlow for environmental parameter estimation}
+        \item {Integrating multi-modal sensing data (Sentinel-1, Sentinel-2, DEMs, reanalysis data)}
       \end{cvitems}
     }
 \end{cventries}
-
-%---------------------------------------------------------
-\cvsection{Career breaks}
-%---------------------------------------------------------
-\begin{cvparagraph}
-Not applicable.
-\end{cvparagraph}
-
-%---------------------------------------------------------
-\cvsection{Research funding and grants}
-%---------------------------------------------------------
-\begin{cvparagraph}
-Not applicable at current career stage.
-\end{cvparagraph}
 
 %---------------------------------------------------------
 \cvsection{Previous work experience}
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
-    {Computer Vision Research on Deep Learning Based Estimation of Hydrology Parameters} % Job title
+    {Computer Vision Research Associate} % Job title
     {University of Oulu} % Organization
     {Oulu, Finland} % Location
     {2024} % Date(s)
     {
-      \begin{cvitems}
-        \item {Established a comprehensive data processing pipeline for hydrological parameter estimation from image sensors.}
-        \item {Achieved state-of-the-art accuracy in snow classification using a modified DeepLabV3+ architecture.}
-        \item {Authored and published research on novel deep learning models for snow-cloud segmentation in satellite imagery.}
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Established comprehensive data processing pipelines for hydrological parameter estimation}
+        \item {Achieved breakthrough accuracy in snow classification using modified DeepLabV3+ architecture}
+        \item {Developed novel deep learning models for snow-cloud segmentation in satellite imagery}
       \end{cvitems}
     }
   \cventry
     {Junior Electrical Engineer} % Job title
-    {Ethiopian Electric Utility} % Organization
+    {Ethiopian Electric utility} % Organization
     {Ethiopia} % Location
-    {2018 - 2021} % Date(s)
+    {3.5 Years} % Date(s)
     {
-      \begin{cvitems}
-        \item {Contributed to the design and maintenance of electrical power systems and infrastructure.}
-        \item {Gained extensive hands-on experience in a major national utility.}
-      \end{cvitems}
+      Full-time job
     }
+
   \cventry
     {Chief Technology Support} % Job title
     {American Space Ethiopia} % Organization
     {Ethiopia} % Location
-    {2019 - 2020} % Date(s)
+    {1.5 Years} % Date(s)
     {
-      \begin{cvitems}
-        \item {Provided critical technology support and managed IT infrastructure for a U.S. Embassy initiative.}
-      \end{cvitems}
+      American Embassy in Ethiopia
     }
 \end{cventries}
 
 %---------------------------------------------------------
-\cvsection{Research Output}
+\cvsection{Research funding and grants}
+%---------------------------------------------------------
+\begin{cvparagraph}
+TODO
+\end{cvparagraph}
+
+%---------------------------------------------------------
+\cvsection{Research output}
 %---------------------------------------------------------
 \begin{cventries}
   \cventry
-    {Journal of Hydrology} % Publication
+    {Journal of Hydrology} % Journal
     {Advances in image-based estimation of snow variable: A systematic literature review on recent studies} % Title
     {} % Location
-    {May 2024} % Date
+    {June 2024} % Date
     {
       \begin{cvitems}
-        \item {A comprehensive review of deep learning architectures for snow hydrology modelling. DOI: \href{https://doi.org/10.5194/egusphere-2024-1158}{10.5194/egusphere-2024-1158}}
+        \item {Comprehensive review emphasising image-based deep learning architectures for snow hydrology modelling}
+        \item {DOI: 10.1016/j.jhydrol.2025.132855}
       \end{cvitems}
     }
+
   \cventry
-    {Earth Science Informatics} % Publication
+    {Earth Science Informatics} % Journal
     {Seeing through the clouds: enhanced snow and cloud segmentation in Sentinel-2 imagery with mDeepLabV3+} % Title
     {} % Location
-    {July 2025 (In Press)} % Date
+    {July 2025 } % Date
     {
       \begin{cvitems}
-        \item {A novel deep learning model for accurate snow-cloud segmentation. DOI: \href{https://doi.org/10.1007/s12145-025-01950-6}{10.1007/s12145-025-01950-6}}
+        \item {Novel deep learning model for accurate snow-cloud segmentation in satellite imagery}
+        \item {DOI: 10.1007/s12145-025-01950-6}
       \end{cvitems}
     }
-  \cventry
-    {Book Chapter: arXiv} % Publication
+
+   \cventry
+    {Book Chapter: arXiv preprint arXiv:2506.18926} % Journal
     {AI-based Approach in Early Warning Systems: Focus on Emergency Communication Ecosystem and Citizen Participation in Nordic Countries} % Title
     {} % Location
     {2025} % Date
     {
       \begin{cvitems}
-        \item {Preprint available at arXiv:2506.18926.}
+       \item {DOI: arXiv:2506.18926}
       \end{cvitems}
     }
+%---------------------------------------------------------
+% Conference Presentations are now integrated into Research Output
   \cventry
-    {SIGIR 2024 Workshop} % Publication
+    {SIGIR 2024 Workshop on Information Retrieval for Climate Impact} % Conference
     {Leveraging Social Media for Real-time Monitoring of Local Climate Impact} % Title
     {Washington DC, USA} % Location
     {2024} % Date
     {
       \begin{cvitems}
-        \item {Proceedings paper. DOI: \href{http://dx.doi.org/10.48550/arXiv.2504.01162}{10.48550/arXiv.2504.01162}}
+        \item {DOI: 10.48550/arXiv.2504.01162}
       \end{cvitems}
     }
+
   \cventry
-    {Nordic Workshop on AI} % Publication
-    {AI-Enhanced Snow and Cloud Segmentation in Sentinel-2 Imagery} % Title
+    {Nordic Workshop on AI for Climate Change} % Conference
+    {AI-Enhanced Snow and Cloud Segmentation in Sentinel-2 Imagery Using Dilated DeepLabv3+ with ResNet Backbone} % Title
     {Copenhagen, Denmark} % Location
     {2025} % Date
     {
       \begin{cvitems}
-        \item {Presented a high-accuracy snow classification method outpacing traditional approaches.}
+        \item {High accuracy snow classification outpacing other methods}
       \end{cvitems}
     }
 \end{cventries}
@@ -261,14 +286,14 @@ Not applicable at current career stage.
 \cvsection{Research supervision and leadership experience}
 %---------------------------------------------------------
 \begin{cvparagraph}
-Not applicable at current career stage.
+TODO
 \end{cvparagraph}
 
 %---------------------------------------------------------
 \cvsection{Teaching merits}
 %---------------------------------------------------------
 \begin{cvparagraph}
-Not applicable at current career stage.
+TODO
 \end{cvparagraph}
 
 %---------------------------------------------------------
@@ -276,36 +301,124 @@ Not applicable at current career stage.
 %---------------------------------------------------------
 \begin{cvhonors}
   \cvhonor
-    {Best 50 African Project of the Year}
-    {Africa Innovation Week}
-    {Continental}
-    {2019}
+    {Best 50 African Project of the Year} % Award
+    {Africa Innovation Week} % Event
+    {Continental} % Location
+    {2019} % Date(s)
+
   \cvhonor
-    {Best Bahir Dar University Project of the Year}
-    {Bahir Dar University}
-    {Ethiopia}
-    {2018}
+    {Best Bahir Dar University Project of the Year} % Award
+    {Bahir Dar University} % Event
+    {Ethiopia} % Location
+    {2018} % Date(s)
 \end{cvhonors}
 
 %---------------------------------------------------------
 \cvsection{Other key academic merits}
 %---------------------------------------------------------
 \begin{cvparagraph}
-Peer reviewer for scientific publications. Open-source contributions to research software (GitHub).
+TODO
 \end{cvparagraph}
 
 %---------------------------------------------------------
 \cvsection{Scientific and societal impact}
 %---------------------------------------------------------
 \begin{cvparagraph}
-Open-source high-resolution estimates for runoff prediction and climate resilience. Research outputs shared via GitHub and open-access publications. Public engagement through research communication.
+TODO
 \end{cvparagraph}
 
 %---------------------------------------------------------
-\cvsection{References}
+\cvsection{Selected Projects}
+%---------------------------------------------------------
+\begin{cventries}
+  \cventry
+    {AI-Enhanced Snow and Cloud Segmentation in Sentinel-2 Imagery} % Project
+    {University of Oulu | Nordic Workshop on AI for Climate Change} % Organization
+    {} % Location
+    {2025} % Date
+    {
+      \begin{cvitems}
+        \item {Modified DeepLabv3+ with ResNet backbone for semantic segmentation of Sentinel-2 satellite imagery}
+        \item {Integrated multi-source data fusion: Sentinel-1, DEMs, and reanalysis data for enhanced snow classification}
+        \item {Achieved state-of-the-art accuracy in snow-cloud discrimination, outperforming existing methods}
+        \item {Open-source high-resolution snow estimation pipeline supporting climate resilience and runoff prediction}
+      \end{cvitems}
+    }
+  \cventry
+    {Deep Learning Based Snow Hydrology Parameter Estimation} % Project
+    {University of Oulu | Published in Journal of Hydrology} % Organization
+    {} % Location
+    {2024 - 2025} % Date
+    {
+      \begin{cvitems}
+        \item {Comprehensive systematic literature review on image-based snow parameter estimation (DOI: 10.1016/j.jhydrol.2025.132855)}
+        \item {Developed deep learning model for snow-cloud segmentation using satellite imagery (DOI: 10.1007/s12145-025-01950-6)}
+        \item {End-to-end pipeline: data acquisition, model selection, training methodologies, and performance evaluation}
+        \item {Advanced uncertainty quantification techniques for improved hydrological modeling accuracy}
+      \end{cvitems}
+    }
+  \cventry
+    {Climate Change Impact Monitoring Using Social Media Analytics} % Project
+    {Research Publication | arXiv} % Organization
+    {} % Location
+    {2024} % Date
+    {
+      \begin{cvitems}
+        \item {Real-time local climate change impact assessment through social media data analysis}
+        \item {Natural language processing and sentiment analysis for community-level environmental insights}
+        \item {Published methodology for leveraging citizen-reported climate experiences (arXiv:2504.01162)}
+        \item {Bridge between traditional climate monitoring and grassroots environmental observations}
+      \end{cvitems}
+    }
+  \cventry
+    {Vision Aided Recognition of Objects for Assistive Robotics} % Project
+    {European Consortium Project} % Organization
+    {} % Location
+    {2022 - 2023} % Date
+    {
+      \begin{cvitems}
+        \item {6D pose estimation using DenseFusion model for individuals with upper-limb disabilities}
+        \item {Created proprietary dataset using Unity engine and HTC VIVE headsets with precise calibration}
+        \item {RGB-D sensor fusion with binary mask integration for robust object manipulation}
+        \item {Complete pipeline including 3D modeling, intrinsic/extrinsic parameter estimation, and real-time processing}
+      \end{cvitems}
+    }
+  \cventry
+    {Advanced Semantic Segmentation for Precision Agriculture} % Project
+    {Academic Research} % Organization
+    {} % Location
+    {2023} % Date
+    {
+      \begin{cvitems}
+        \item {Comparative analysis of U-Net, Attention U-Net, and DeepLabV3+ for agricultural applications}
+        \item {Automated multi-class segmentation: crop fields, background, and weed classification}
+        \item {UAV-based image processing pipeline optimized for precision agriculture workflows}
+        \item {Performance benchmarking across different deep learning architectures}
+      \end{cvitems}
+    }
+  \cventry
+    {Smart Microscope for Automated Medical Diagnosis} % Project
+    {Bahir Dar University} % Organization
+    {} % Location
+    {2018} % Date
+    {
+      \begin{cvitems}
+        \item {Automatic protozoan disease detection and diagnosis using computer vision and machine learning}
+        \item {End-to-end system design: hardware integration, image acquisition, and diagnostic algorithms}
+        \item {\textbf{Won Best African Project Award 2019} for innovation in medical technology}
+        \item {Python-based implementation with real-time processing capabilities}
+      \end{cvitems}
+    }
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\cvsection{Reference}
 %---------------------------------------------------------
 \begin{cvparagraph}
-Available upon request.
+  Prof. Mourad Oussalah \\
+  mourad.oussalah@oulu.fi \\
+  University of Oulu
 \end{cvparagraph}
+%---------------------------------------------------------
 
 \end{document}
